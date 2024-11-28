@@ -1,0 +1,90 @@
+#userForm {
+
+  .logOut {
+    background-color: white;
+    padding: 10px 20px;
+    color: #003A68;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px solid #003A68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    gap: 10px;
+
+    &:hover {
+      background-color: #4478a8;
+      color: white;
+    }
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  //.image {
+  //  width: 100%;
+  //  border-radius: 30px;
+  //  overflow: hidden;
+  //
+  //  img {
+  //    width: 100%;
+  //  }
+  //}
+
+  .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 10px;
+    line-height: 2.2;
+    text-align: center;
+
+    h2 {
+      font-weight: 600;
+      color: #004879;
+      margin-top: -100px;
+    }
+
+    .span {
+      color: #a99674;
+      font-size: 18px;
+    }
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      margin-bottom: 7px;
+      color: #004879;
+      font-weight: 500;
+    }
+
+    input, textarea, select {
+      padding: 10px 20px;
+      border: 1px solid #a99674;
+      outline: none;
+      border-radius: 10px;
+
+      &::placeholder {
+        color: #a99674;
+        font-weight: 500;
+      }
+    }
+
+    button {
+      background-color: #a99674;
+      color: white;
+      outline: none;
+      border: 1px solid transparent;
+      font-size: 16px;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+  }
+}
